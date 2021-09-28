@@ -2,11 +2,13 @@
 
 using namespace std;
 
-auto soma(auto a, auto b) {
-    return a + b;
-}
-
 int main() {
-    std::cout << soma(5, 6) << '\n';
+    string teste = "hub";
+
+    for(int i=0; i<3; i++) {
+        cout << "Git " << teste << endl;
+    }
+
     return 0;
+
 }
